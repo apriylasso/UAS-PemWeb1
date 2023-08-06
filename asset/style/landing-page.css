@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+@font-face {
+    font-family: cocogoose;
+    src: url(../font/cocogoose.ttf);
+}
+
+@font-face {
+    font-family: cocogooseSemi;
+    src: url(../font/cocogoose-semibold.ttf);
+}
+
+@font-face {
+    font-family: cocogooseBold;
+    src: url(../font/cocogoose-bold.ttf);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(../font/coolvetica.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ECECEC;
+    font-family: cocogoose;
+    color: #333333;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    background-color: #0080FF;
+    padding: 1vw 13vw;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav img {
+    width: 10vw;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 2vw;
+    font-family: cocogooseSemi;
+    font-size: 1.1vmax;
+}
+
+ul li a:hover {
+    color: #333333;
+}
+
+.container-1{
+    margin: 8vw 13vw 3vw;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 5vw 15vw;
+    text-align: center;
+    box-shadow: 5px 5px 14px 1px rgb(144, 144, 144);
+}
+
+.text-1 {
+    font-size: 1.6vmax;
+}
+
+.text-2 {
+    font-size: 3.4vmax;
+    font-family: cocogooseBold;
+}
+
+.container-1 p {
+    font-size: 1.3vmax;
+    font-family: 'Actor', sans-serif;
+}
+
+.container-1 .c-box {
+    margin-top: 3vw;
+}
+
+.c-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items p {
+    font-size: 1vmax;
+    font-family: cocogooseBold;
+}
+
+.box {
+    width: 9vw;
+    height: 9vw;
+    border: 0.4vw solid #C4C4C4;
+    border-radius: 1vw;
+    margin-top: 0.6vw;
+    display: flex;
+}
+
+.box div {
+    font-family: coolvetica;
+    font-size: 2.2vmax;
+    text-decoration: underline;
+    text-decoration-color: #C4C4C4;
+    margin: auto;
+}
+
+.garis {
+    margin: 0vw 20vw;
+    background-color: #CDCDCD;
+    height: 0.3vw;
+}
+
+.container-2 {
+    margin: 3vw 13vw;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 5px 5px 14px 1px rgb(144, 144, 144);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 .img-1 {
+    border-radius: 2vw;
+    box-shadow: 4px 0px 20px 1px rgba(89, 162, 205, 25%);
+    width: 35vw;
+    height: 34vw;
+}
+
+.c2-right {
+    margin: auto;
+    padding-left: 3vw;
+    padding-right: 8vw;
+}
+
+.text-right1 {
+    font-size: 2vw;
+    font-family: cocogooseBold;
+}
+
+.text-right2 {
+    display: flex;
+}
+
+.text-right2 .rupiah {
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.text-right2 .perjam {
+    margin: 0.8vw 0.6vw;
+    font-family: cocogooseBold;
+    font-size: 2vw;
+}
+
+.text-right3 {
+    font-family: coolvetica;
+    font-size: 1.6vw;
+}
+
+.opsi {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.opsi-1 img {
+    margin-right: 1vw;
+    width: 1vw;
+    height: 1vw;
+    display: block;
+    margin-bottom: 1vw;
+}
+
+.opsi-2 p {
+    margin-top: -0.1vw;
+    margin-bottom: 0.75vw;
+    font-size: 1vw;
+}
+
+.btn-gabung {
+    width: 16vw;
+    height: 3.6vw;
+    background: #0080FF;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: cocogooseSemi;
+    border-radius: 1vw;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-gabung:hover {
+    background: #024b95;
+}
+
+.kls-minerva {
+    font-family: cocogooseBold;
+    font-size: 3vmax;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+
+.container-3 {
+    margin: 2vw 13vw;
+}
+
+.blok-atas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blok {
+    background-color: #C4C4C4;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 30px;
+    box-shadow: 5px 5px 14px 1px rgb(144, 144, 144);
+    padding-top: 10vw;
+}
+
+.blok-dalam {
+    background-color: #FFFFFF;
+    width: 20vw;
+    height: 10vw;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 2vw;
+}
+
+.blok-dalam .teks {
+    display: block;
+    font-family: cocogooseBold;
+    font-size: 1.6vmax;
+}
+
+.blok-dalam button {
+    width: 12vw;
+    height: 3vw;
+    font-family: cocogooseSemi;
+    font-size: 1.2vmax;
+    color: #FFFFFF;
+    background: #0080FF;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.4vw;
+    cursor: pointer;
+}
+
+.blok-dalam button:hover {
+    background: #024b95;
+}
+
+.blok-bawah {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4vw;
+}
+
+.container-4 {
+    width: 100%;
+    background-color: #0080FF;
+    margin-top: 8vw;
+    padding: 7vw 20vw 3vw;
+    text-align: center;
+}
+
+.testimoni {
+    font-family: cocogooseBold;
+    font-size: 3.4vmax;
+    color: #FFFFFF;
+}
+
+.container-4 .card {
+    height: 18vw;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 1vw;
+    display: flex;
+}
+
+.card .side-left {
+    background-color: #D3D3D3;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.side-left img {
+    margin: auto;
+    width: 50%;
+}
+
+.card .side-right {
+    margin: auto;
+    padding: 2vw 5vw 2vw 3vw;
+    text-align: left;
+}
+
+.side-right h1 {
+    font-family: cocogooseBold;
+    font-size: 2vmax;
+}
+
+.side-right p {
+    font-size: 1vmax;
+}
+
+.bulat {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw 25vw;
+}
+
+.terang {
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.samar {
+    width: 1.3vw;
+    height: 1.3vw;
+    border-radius: 15px;
+    background-color: #0080FF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.samar:hover {
+    background-color: #CDCDCD;
+}
+
+footer {
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+}
+
+.s-left {
+    width: 50%;
+    padding: 2vw 3vw 2vw 12.7vw;
+    text-align: right;
+    margin: auto;
+}
+
+.s-left img {
+    width: 45%;
+}
+
+.s-left p {
+    font-family: 'Actor', sans-serif;
+    font-size: 1.4vmax;
+    margin-top: 2vw;
+}
+
+.s-left .jogja {
+    font-family: cocogooseBold;
+    font-size: 1.6vmax;
+    margin-top: 2vw;
+}
+
+.s-left .jogja-1 {
+    font-family: coolvetica;
+    font-size: 1.4vmax;
+    margin-top: 0.2vw;
+}
+
+.s-right {
+    width: 50%;
+    padding: 2vw 15vw 2vw 3vw;
+    margin: auto;
+}
+
+.s-right .kontak {
+    font-family: cocogooseBold;
+    font-size: 2vmax;
+}
+
+table {
+    width: 30vw;
+    height: 8vw;
+    margin-top: 1vw;
+}
+
+table tr {
+    margin-top: 0.5vw;
+}
+
+tr td {
+    font-family: coolvetica;
+    font-size: 1.4vmax;
+    width: 1vw;
+}
+
+.btn-footer {
+    width: 12vw;
+    margin-top: 2vw;
+}
+
+.btn-footer button {
+    width: 12vw;
+    height: 3vw;
+    font-family: cocogooseSemi;
+    font-size: 1.2vw;
+    color: #FFFFFF;
+    background: #0080FF;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.4vw;
+    cursor: pointer;
+}
+
+.btn-footer .chat:hover {
+    background: #024b95;
+}
+
+.btn-footer .another {
+    background: #ECECEC;
+    border: 1px solid #0080FF;
+    color: #0080FF;
+}
+
+.btn-footer .another:hover {
+    background: #0080FF;
+    color: #ECECEC;
+}
+
+.btn-footer p {
+    text-align: center;
+    margin-top: 0.4vw;
+    color: #A9A9A9;
+    font-size: 1vmax;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    font-family: coolvetica;
+    font-size: 1.2vmax;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}

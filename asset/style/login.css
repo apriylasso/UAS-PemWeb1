@@ -1,0 +1,164 @@
+@font-face {
+    font-family: cocogoose;
+    src: url(../font/cocogoose.ttf);
+}
+
+@font-face {
+    font-family: cocogooseSemi;
+    src: url(../font/cocogoose-semibold.ttf);
+}
+
+@font-face {
+    font-family: cocogooseBold;
+    src: url(../font/cocogoose-bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    font-family: cocogooseBold;
+    background-color: #0080FF;
+    color: #333333;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1.5vw 9.5vw;
+}
+
+nav img {
+    margin-right: 7vw;
+    width: 8.4vw;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 2vw;
+    font-size: 1vmax;
+}
+
+.container-card {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 14px 1px rgb(4, 93, 181);
+    margin: 3vw 25vw;
+    padding: 2.5vw 5vw 2vw;
+}
+
+.teks-1 {
+    font-size: 3vmax;
+}
+
+.teks-2 {
+    font-size: 1.2vmax;
+    font-family: cocogooseSemi;
+}
+
+div input {
+    text-align: center;
+    width: 30vw;
+    height: 2.5vw;
+    border: none;
+    outline: none;
+    color: #C4C4C4;
+    font-size: 1.6vmax;
+    font-family: cocogooseBold;
+}
+
+.username {
+    margin-top: 3vw;
+}
+
+.password {
+    margin-bottom: 3vw;
+}
+
+.garis {
+    height: 0.2vw;
+    background-color: #CDCDCD;
+    margin: 0.5vw 7vw;
+}
+
+.masuk {
+    width: 15vw;
+    height: 3.4vw;
+    background: #0080FF;
+    color: #FFFFFF;
+    border: 3px solid #0080FF;
+    border-radius: 15px;
+    font-size: 1.2vmax;
+    font-family: cocogooseBold;
+    cursor: pointer;
+}
+
+.masuk:hover {
+    background: #004385;
+}
+
+.tanda {
+    margin: 0.5vw 0vw;
+    padding: 0vw 15vw;
+    display: flex;
+}
+
+.tanda div {
+    margin: auto;
+}
+
+.google {
+    width: 15vw;
+    height: 3.4vw;
+    background: #FFFFFF;
+    color: #0080FF;
+    border: 3px solid #0080FF;
+    border-radius: 15px;
+    font-size: 1.2vmax;
+    font-family: cocogooseBold;
+    cursor: pointer;
+}
+
+.google:hover {
+    background: #0080FF;
+    color: #FFFFFF;
+}
+
+.garis-before {
+    width: 2vw;
+    height: 0.2vw;
+    background-color: #CDCDCD;
+    margin: 0vw 1vw 0vw 20vw;
+}
+
+.tanda p {
+    font-size: 1vmax;
+    color: #CDCDCD;
+}
+
+.garis-after {
+    width: 2vw;
+    height: 0.2vw;
+    background-color: #CDCDCD;
+    margin: 0vw 20vw 0vw 1vw;
+}
+
+.teks-3 {
+    margin-top: 1.5vw;
+    font-family: cocogoose;
+    font-size: 0.9vmax;
+}
