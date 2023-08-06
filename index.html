@@ -9,11 +9,11 @@
 <body>
     <header>
         <nav>
-            <a href="landing-page.html"><img src="asset/img/home.png" alt=""></a>
+            <a href="index.html"><img src="asset/img/home.png" alt=""></a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#testimoni">Testimoni</a></li>
-                <li><a href="landing-page.html">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="login.html">Masuk</a></li>
             </ul>
         </nav>
@@ -136,6 +136,8 @@
             <button class="terang"></button>
             <button class="samar"></button>
             <button class="samar"></button>
+            </div>
+            
         </div>
     </div>
 
@@ -146,7 +148,7 @@
             <div class="jogja">DI Yogyakarta</div>
             <div class="jogja-1">Jl. Laksda Adisucipto No.Km 8,5, Kalongan, Maguwoharjo, Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</div>
         </div>
-        <div class="s-right">
+        <div id="contact" class="s-right">
             <div class="kontak">Kontak Kami</div>
             <table>
                 <tr>
@@ -173,5 +175,39 @@
         </div>
     </footer>
     <div class="copyright">Copyright &copy; Genbox 2023</div>
+
+    <script>
+        function handleGabungButtonClick() {
+            alert("Anda telah berhasil bergabung!");     
+        }
+        
+        const btnGabung = document.querySelector('.btn-gabung');
+        btnGabung.addEventListener('click', handleGabungButtonClick);
+        
+        function handleLihatButtonClick(event) {
+            const teks = event.target.parentElement.querySelector('.teks').innerText;
+            alert("Anda mengklik tombol 'Lihat' pada kelas: " + teks);
+        }
+
+        const lihatButtons = document.querySelectorAll('.blok-dalam button');
+        lihatButtons.forEach((button) => {
+            button.addEventListener('click', handleLihatButtonClick);
+        });
+
+        function handleChatButtonClick() {
+            alert("Anda telah mengklik tombol 'Chat'. Silakan hubungi kami melalui email atau Instagram.");
+        }
+
+        const btnChat = document.querySelector('.chat');
+        btnChat.addEventListener('click', handleChatButtonClick);
+
+        function handleAnotherButtonClick() {
+            alert("Anda telah mengklik tombol 'Another'. Silakan cari kontak kami di WhatsApp.");
+        }
+
+        const btnAnother = document.querySelector('.another');
+        btnAnother.addEventListener('click', handleAnotherButtonClick);
+    </script>
+
 </body>
 </html>

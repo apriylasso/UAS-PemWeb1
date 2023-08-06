@@ -206,6 +206,11 @@ ul li a:hover {
     cursor: pointer;
 }
 
+.btn-gabung a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .btn-gabung:hover {
     background: #024b95;
 }
